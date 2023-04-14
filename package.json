@@ -1,0 +1,22 @@
+{
+  "name": "js-pets",
+  "version": "1.0.0",
+  "description": "Create your own pet!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tugcanozaktas/js-pets.git"
+  },
+  "author": "Tugcan Ozaktas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tugcanozaktas/js-pets/issues"
+  },
+  "homepage": "https://github.com/tugcanozaktas/js-pets#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
