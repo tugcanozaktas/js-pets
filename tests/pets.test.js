@@ -48,6 +48,11 @@ describe("Treats the pet", ()=>{
         dog.walk();
         expect(dog.fitness).toEqual(6);
     });
+
+    it("should increase the happiness when loved", ()=>{
+        dog.showLove()
+        expect(dog.happiness).toEqual(1);
+    })
 });
 
 
@@ -90,4 +95,4 @@ describe("Checks status of dog", ()=>{
         dog.fitness = -1;
         expect(dog.isAlive()).toEqual(false);
     });
-})
+});

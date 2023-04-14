@@ -3,7 +3,7 @@ module.exports =
         constructor(name, age, hunger, fitness){
             this.name = name;
             this.age = age;
-
+            this.happiness = 0;
             this.hunger = hunger;
             this.fitness = fitness;
         }
@@ -12,6 +12,10 @@ module.exports =
             this.age += 1;
             this.hunger += 1;
             this.fitness -= 1;
+        }
+
+        showLove(){
+            this.happiness += 1;
         }
 
         isAlive(){
